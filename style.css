@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(src/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 40px;
+    cursor: pointer;
+}
+
+nav {
+    padding-left: 60px;
+    flex: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    color:#ff77cd;
+}
+
+.content {
+    margin: 10%;
+}
+
+.content h1 {
+    color: #232d60;
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+.content p {
+    font-size: 20px;
+    color: #6a7199;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    box-sizing: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.arrow-icons{
+    margin-top: 48px;
+    display: flex;
+    cursor: pointer;
+}
+.arrow-icons img {
+    width: 40px;
+    margin-right: 25px;
+}
+.feature-img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 650px;
+
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -100px;
+    bottom: 200px;    
+}
+.social-links a {
+    text-decoration: none;
+    color:#6a7199;
+    padding-right: 20px;
+    font-weight: 100;
+    font-size: px;
+}
